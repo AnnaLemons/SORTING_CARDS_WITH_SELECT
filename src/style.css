@@ -1,1 +1,73 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  height: 10rem;
+  width: 6.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5%;
+  border: black;
+  border-style: dashed;
+  margin: 1rem;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  font-size: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+input {
+  border-style: ridge;
+  border-color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 3rem;
+}
+
+.iconHeart {
+  font-size: 1rem;
+  align-self: flex-start;
+}
+
+.numberElement {
+  font-size: 1.2rem;
+  align-self: center;
+}
+
+.inverseElement {
+  font-size: 1rem;
+  align-self: flex-end;
+  transform: rotate(-180deg);
+}
+
+.black {
+  color: black;
+}
+
+.red {
+  color: red;
+}
